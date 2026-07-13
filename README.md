@@ -16,11 +16,6 @@ O projeto resolve um problema comum: você tem um texto longo que quer compartil
 - 📦 Escrito em TypeScript com tipagem total
 - 🧪 Inclui testes com Jest
 
-## 📋 Composição do Projeto
-
-- **TypeScript**: 96.4%
-- **JavaScript**: 3.6%
-
 ## 🚀 Como Usar
 
 ### Instalação
@@ -94,19 +89,6 @@ const blocos = TweetStorm.quebraTexto("Texto aqui", 5);
 
 ## 🛠️ Desenvolvimento
 
-### Estrutura do Projeto
-
-```
-TweetStorm/
-├── src/
-│   ├── TweetStorm.ts       # Classe principal
-│   └── Test/               # Testes
-├── package.json            # Dependências e scripts
-├── tsconfig.json           # Configuração TypeScript
-├── jest.config.js          # Configuração Jest
-└── README.md               # Este arquivo
-```
-
 ### Scripts Disponíveis
 
 ```bash
@@ -140,28 +122,3 @@ O algoritmo de quebra funciona assim:
 3. Se encontrar um espaço, quebra nele (não quebra a palavra)
 4. Se não encontrar, quebra no limite (último caracter)
 5. Adiciona o bloco à lista de resultados
-
-## 📄 Licença
-
-ISC
-
-## 👤 Autor
-
-**GabOof**
-- GitHub: [@GabOof](https://github.com/GabOof)
-
-## 🤝 Contribuindo
-
-Sugestões e melhorias são bem-vindas! Sinta-se à vontade para:
-- Abrir issues para reportar bugs
-- Enviar pull requests com melhorias
-- Sugerir novas funcionalidades
-
-## 🔗 Links
-
-- [Repositório](https://github.com/GabOof/TweetStorm)
-- [Issues](https://github.com/GabOof/TweetStorm/issues)
-
----
-
-Feito com ❤️ por GabOof
